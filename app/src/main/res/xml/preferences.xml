@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="appTheme"
+        android:title="@string/pref_title_app_theme"
+        android:summary="@string/pref_summary_app_theme"
+        android:entries="@array/app_theme_entries"
+        android:entryValues="@array/app_theme_values"
+        android:defaultValue="-1" />
+
+    <ListPreference
+        android:key="gameMode"
+        android:title="Game Mode"
+        android:summary="Select the default game mode."
+        android:entries="@array/game_mode_entries"
+        android:entryValues="@array/game_mode_values"
+        android:defaultValue="ffa" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="soundEffects"
+        android:summary="Toggle sound effects on or off."
+        android:title="Enable Sound Effects" />
+
+    <Preference
+        android:key="aboutSection"
+        android:title="About"
+        android:summary="View app version and developer info." />
+
+</PreferenceScreen>

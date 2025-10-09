@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Buzzer Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pref_category_display">Display</string>
+    <string name="pref_title_app_theme">App Theme</string>
+    <string name="pref_summary_app_theme">Choose the app theme</string>
+    <string name="pref_title_font_size">Font Size</string>
+    <string name="pref_summary_font_size">Adjust the app font size</string>
+    <string name="pref_title_keep_screen_awake">Keep Screen Awake</string>
+    <string name="pref_summary_keep_screen_awake">Prevent the screen from turning off</string>
+    <string name="pref_category_sound">Sound</string>
+    <string name="pref_title_vibration_strength">Vibration Strength</string>
+    <string name="pref_summary_vibration_strength">Adjust the vibration feedback strength</string>
+    <string name="pref_category_language">Language</string>
+    <string name="pref_title_app_language">App Language</string>
+    <string name="pref_summary_app_language">Choose the app language</string>
+    <string name="pref_category_support">Support</string>
+    <string name="pref_title_send_feedback">Send Feedback</string>
+    <string name="pref_summary_send_feedback">Send feedback or report an issue</string>
+    <string name="pref_category_reset">Reset</string>
+    <string name="pref_title_reset_defaults">Reset to Defaults</string>
+    <string name="pref_summary_reset_defaults">Reset all settings to their default values</string>
+    <string name="rules">The goal of the game is to gather points by answering questions correctly.\n\n
+        There are two roles, the host and the players, with the host sending the questions and the players answering them.\n\n
+        The host first must connect to the players before starting a round and loading a question.
+        Then they can send the question by pressing the big button on their screen.
+        Afterwards, the players fight for the right to answer by pressing their buzzers.
+        After a player is deemed the first to press their buzzer, the host listens for their answer and decides whether it is correct or not.\n\n
+        If the answer is correct the player gets a point, otherwise they do not.
+        The host may then continue the game by starting a new round</string>
+    <string-array name="font_size_entries">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+    </string-array>
+    <string-array name="vibration_strength_entries">
+        <item>Disabled</item>
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Max</item>
+    </string-array>
+    <string-array name="vibration_strength_values">
+        <item>disabled</item>
+        <item>light</item>
+        <item>medium</item>
+        <item>max</item>
+    </string-array>
+    <string-array name="app_language_entries">
+        <item>English</item>
+        <item>Greek</item>
+    </string-array>
+    <string-array name="app_language_values">
+        <item>en</item>
+        <item>el</item>
+    </string-array>
+</resources>

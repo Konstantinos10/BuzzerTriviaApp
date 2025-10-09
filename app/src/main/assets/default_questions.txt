@@ -1,0 +1,19 @@
+# Default Questions for Buzzer Trivia App
+# Format: text|startTime|endTime|points
+# Times are in milliseconds
+
+What is the capital of France?|5000|15000|10
+What is 2 + 2?|5000|8000|5
+Which planet is known as the Red Planet?|5000|12000|10
+Who painted the Mona Lisa?|5000|15000|15
+What is the largest ocean on Earth?|5000|12000|10
+In which year did World War II end?|5000|15000|15
+What is the chemical symbol for gold?|5000|10000|10
+Which is the smallest country in the world?|5000|12000|10
+What is the fastest land animal?|5000|10000|10
+How many continents are there?|5000|8000|5
+What is the longest river in the world?|5000|12000|10
+Which element has the atomic number 1?|5000|10000|10
+Who wrote Romeo and Juliet?|5000|15000|15
+What is the square root of 64?|5000|8000|5
+Which country is known as the Land of the Rising Sun?|5000|12000|10
