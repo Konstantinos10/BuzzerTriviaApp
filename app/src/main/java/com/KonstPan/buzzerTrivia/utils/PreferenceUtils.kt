@@ -11,6 +11,6 @@ object PreferenceUtils {
 
     fun getPreferredGameMode(context: Context): String {
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
-        return prefs.getString("gameMode", "none") ?: "none"
+        return prefs.getString("gameMode", "ffa") ?: "ffa"
     }
 }
