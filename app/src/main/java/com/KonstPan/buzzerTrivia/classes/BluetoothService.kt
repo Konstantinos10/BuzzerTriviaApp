@@ -141,7 +141,7 @@ class BluetoothService(private val context: Context) {
         clearQueue() // Clear the gatt queue as nothing can be done with bluetooth off
 
         // HOST
-        for(player in connectedPlayers.values) hostGattCallback.onConnectionStateChange(player, 0, BluetoothProfile.STATE_DISCONNECTED)
+        for (player in connectedPlayers.values.toList()) { hostGattCallback.onConnectionStateChange(player, 0, BluetoothProfile.STATE_DISCONNECTED) }
         stopScanning()
 
         // PLAYER
