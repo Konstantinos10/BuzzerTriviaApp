@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.placeholder.myFirstApp"
+    namespace = "com.KonstPan.buzzerTrivia"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.placeholder.myFirstApp"
+        applicationId = "com.KonstPan.buzzerTrivia"
         minSdk = 33
         targetSdk = 36
         versionCode = 1
